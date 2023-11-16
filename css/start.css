@@ -1,0 +1,60 @@
+:root{
+    --main-color:#fff;
+    --main-bg-color:#000;
+}
+
+/* base-style */
+body{
+    background-color: var(--main-bg-color);
+}
+/* header */
+.header {
+}
+
+.header__top {
+    text-align: right;
+}
+
+.link-action {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+.header__bottom .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom{
+    background-image: url(../img/bg-header-1.jpg);
+}
+
+.logo {
+    max-width: 200px;
+    display: inline-block;
+}
+
+.menu {
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+}
+
+.link-other-page {
+}
+
+.link-other-page__img {
+    max-width:100px;
+    max-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.link-other-page__text {
+    color: var(--main-color);
+    font-size: 20px;
+}
