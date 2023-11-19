@@ -6,6 +6,7 @@
 /* base-style */
 body{
     background-color: var(--main-bg-color);
+    font-family: 'DM Mono', monospace;
 }
 /* header */
 .header {
@@ -27,6 +28,8 @@ body{
 
 .header__bottom{
     background-image: url(../img/bg-header-1.jpg);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .logo {
@@ -56,5 +59,5 @@ body{
 
 .link-other-page__text {
     color: var(--main-color);
-    font-size: 20px;
+    font-size: 25px;
 }
