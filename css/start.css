@@ -7,6 +7,7 @@
 body{
     background-color: var(--main-bg-color);
     font-family: 'DM Mono', monospace;
+    color: var(--main-color);
 }
 /* header */
 .header {
@@ -60,4 +61,19 @@ body{
 .link-other-page__text {
     color: var(--main-color);
     font-size: 25px;
+}
+
+/* main */
+.main-section {
+
+}
+
+.main-section__content {
+background-image: url(../img/main-bg.webp);
+height: 70vh;
+background-size: cover;
+}
+
+.main-section__description {
+
 }
