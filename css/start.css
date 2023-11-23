@@ -11,6 +11,11 @@ body{
 }
 /* header */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .header__top {
@@ -65,15 +70,24 @@ body{
 
 /* main */
 .main-section {
-
+padding: 200px 0 0;
 }
 
 .main-section__content {
-background-image: url(../img/main-bg.webp);
+background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.6) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/main-bg.webp);
 height: 70vh;
 background-size: cover;
+position: relative;
 }
 
 .main-section__description {
-
+max-width: 80%;
+width: 100%;
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+font-size: 1.5em;
+font-weight: 600;
+text-shadow: 2px 2px 4px #000;
 }
