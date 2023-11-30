@@ -48,6 +48,7 @@ body{
 
 .menu__list {
     display: flex;
+    column-gap: 15px;
 }
 
 .menu__item {
@@ -92,6 +93,29 @@ font-weight: 600;
 text-shadow: 2px 2px 4px #000;
 }
 
+/* footer */
+.border-line{
+    margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid rgb(88, 88, 88);
+	box-shadow: 0 20px 20px -20px #595858;
+	width: 95%;
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-list{
+    display: flex;
+    column-gap: 20px;
+}
+
+/* sprites */
 .test-icon{
     fill: #fff;
     width: 100%;
@@ -112,6 +136,4 @@ text-shadow: 2px 2px 4px #000;
     fill:gray;
 }
 
-.border-line{
-    
-}
+
