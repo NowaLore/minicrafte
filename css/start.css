@@ -172,7 +172,23 @@ background-image: url(../img/slider/pvp.jpg);
 
 .slick-dots {
     position: absolute;
-    bottom: 0;
+    bottom: -20;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    column-gap: 10px;
+}
+
+.slick-dots button {
+font-size: 0;
+line-height: 0;
+width: 10px;
+height: 10px;
+background-color: #fff;
+}
+
+.slick-active button {
+background-color: darkolivegreen;
 }
 
 /* footer */
