@@ -32,6 +32,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header__bottom{
@@ -72,7 +74,8 @@ body{
 }
 
 /* main */
-.main-section {
+.main-section,
+.about-game {
 padding: 200px 0 0;
 }
 
@@ -93,6 +96,83 @@ transform: translate(-50%, -50%);
 font-size: 1.5em;
 font-weight: 600;
 text-shadow: 2px 2px 4px #000;
+}
+
+
+
+
+/* slider */
+.slider {
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slick-list {
+overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slider__slide {
+    min-height: 400px;
+    background-color: gray;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.slider__slide--first  {
+background-image: url(../img/slider/pvp.jpg);
+}
+
+.slider__slide--second {
+    background-image: url(../img/slider/hb.webp);
+}
+.slider__slide--third {
+    background-image: url(../img/slider/mine.png);
+}
+.slider__slide--fourth {
+    background-image: url(../img/slider/crafts.png);
+}
+.slider__slide--fifth {
+    background-image: url(../img/slider/dragon.jpg);
+}
+
+.slider__description {
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#fff!important;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.slider__arrow--left {
+    left: -50px;
+    transform: translateY(-50%) rotate(180deg);
+}
+.slider__arrow--right {
+    right: -50px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
 }
 
 /* footer */
