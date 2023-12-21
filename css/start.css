@@ -109,7 +109,7 @@ text-shadow: 2px 2px 4px #000;
 }
 
 .slick-list {
-overflow: hidden;
+    overflow: hidden;
 }
 
 .slick-track {
@@ -125,6 +125,8 @@ overflow: hidden;
     background-size: cover;
     background-position: center;
     position: relative;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .slider__slide--first  {
@@ -170,9 +172,10 @@ background-image: url(../img/slider/pvp.jpg);
     right: -50px;
 }
 
+
 .slick-dots {
     position: absolute;
-    bottom: -20;
+    bottom: -20px;
     display: flex;
     left: 50%;
     transform: translateX(-50%);
@@ -189,6 +192,14 @@ background-color: #fff;
 
 .slick-active button {
 background-color: darkolivegreen;
+}
+
+.slider__arrow:hover path {
+    fill: peachpuff;
+}
+
+.slider__arrow:active path {
+    fill: darkgray;
 }
 
 /* footer */
@@ -246,6 +257,15 @@ background-color: darkolivegreen;
     .link-other-page__text {
         font-size: 16px;
     }
+
+    .slider__arrow {
+        display: none !important;
+    }
+
+    .slider {
+        max-width: 100%;
+    }
+
 }
 
 @media (max-width:585px){
