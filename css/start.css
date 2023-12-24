@@ -103,9 +103,9 @@ text-shadow: 2px 2px 4px #000;
 
 /* slider */
 .slider {
-    max-width: 85%;
-    margin: 0 auto;
-    position: relative;
+max-width: 85%;
+position: relative;
+margin: 0 auto;
 }
 
 .slick-list {
@@ -246,6 +246,13 @@ background-color: darkolivegreen;
 }
 
 /* addaptive */
+
+@media (max-width:1024px){
+    .about-game {
+        padding: 200px 0;
+    }
+}
+
 @media (max-width:800px){
     .link-other-page__img {
         max-width: 80px;
@@ -296,4 +303,10 @@ background-color: darkolivegreen;
         flex-direction: column;
         row-gap: 10px;
     }
+
+    .about-game {
+        padding: 230px 0 150px;
+    }
+
 }
+
