@@ -202,6 +202,34 @@ background-color: darkolivegreen;
     fill: darkgray;
 }
 
+/* game-sourses */
+
+.resourses-section {
+}
+
+.resourses-section__content {
+}
+.mods-list {
+}
+.mods-list__item {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.mods-list__img {
+    margin-bottom: 25px;
+}
+.mods-list__text {
+    margin-bottom: 50px;
+}
+.mods-list__wrapper-link {
+    text-align: right;
+}
+.link-mode {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
 /* footer */
 .border-line{
     margin: -30px auto 10px;
