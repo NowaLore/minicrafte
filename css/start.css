@@ -202,6 +202,36 @@ background-color: darkolivegreen;
     fill: darkgray;
 }
 
+/* game-sourses */
+
+.resourses-section {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.resourses-section__content {
+}
+.mods-list {
+}
+.mods-list__item {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.mods-list__img {
+    margin-bottom: 25px;
+}
+.mods-list__text {
+    margin-bottom: 50px;
+}
+.mods-list__wrapper-link {
+    text-align: right;
+}
+.link-mode {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
 /* footer */
 .border-line{
     margin: -30px auto 10px;
@@ -251,6 +281,7 @@ background-color: darkolivegreen;
     .about-game {
         padding: 200px 0;
     }
+`
 }
 
 @media (max-width:800px){
@@ -272,6 +303,7 @@ background-color: darkolivegreen;
     .slider {
         max-width: 100%;
     }
+
 
 }
 
@@ -307,6 +339,11 @@ background-color: darkolivegreen;
     .about-game {
         padding: 230px 0 150px;
     }
+
+    .mods-list__item{
+        max-width: 100%;
+    }
+
 
 }
 
