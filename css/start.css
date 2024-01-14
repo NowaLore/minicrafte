@@ -205,6 +205,8 @@ background-color: darkolivegreen;
 /* game-sourses */
 
 .resourses-section {
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 .resourses-section__content {
@@ -279,6 +281,7 @@ background-color: darkolivegreen;
     .about-game {
         padding: 200px 0;
     }
+`
 }
 
 @media (max-width:800px){
@@ -300,6 +303,7 @@ background-color: darkolivegreen;
     .slider {
         max-width: 100%;
     }
+
 
 }
 
@@ -335,6 +339,11 @@ background-color: darkolivegreen;
     .about-game {
         padding: 230px 0 150px;
     }
+
+    .mods-list__item{
+        max-width: 100%;
+    }
+
 
 }
 
